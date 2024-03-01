@@ -1,0 +1,17 @@
+{
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.workstationconnect.release",
+    "managedProperty": [{
+        "key": "resolutionAndSizeMode",
+        "valueString": "1"
+    }, {
+        "key": "desktopResolution",
+        "valueString": "1920,1080,160,10"
+    }, {
+        "key": "desktopDensity",
+        "valueString": "160"
+    }, {
+        "key": "desktopOrientation",
+        "valueString": "0"
+    }]
+}

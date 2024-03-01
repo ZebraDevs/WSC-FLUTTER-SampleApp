@@ -1,0 +1,101 @@
+{
+
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.workstationconnect.release",
+    "managedProperty": [{
+        "key": "configAppBehavior",
+        "valueBundle": {
+            "managedProperty": [{
+                "key": "appCriteria",
+                "valueBundleArray": [{
+                    "managedProperty": [{
+                        "key": "autoMovePackagename",
+                        "valueString": "com.android.chrome"
+                    }, {
+                        "key": "dockingCondition",
+                        "valueBundle": {
+                            "managedProperty": [{
+                                "key": "dockingWindowState",
+                                "valueString": "2"
+                            }, {
+                                "key": "dockingAction",
+                                "valueString": "2"
+                            }]
+                        }
+                    }, {
+                        "key": "undockingCondition",
+                        "valueBundle": {
+                            "managedProperty": [{
+                                "key": "undockingAction",
+                                "valueString": "1"
+                            }]
+                        }
+                    }]
+                }, {
+                    "managedProperty": [{
+                        "key": "autoMovePackagename",
+                        "valueString": "com.google.android.gm"
+                    }, {
+                        "key": "dockingCondition",
+                        "valueBundle": {
+                            "managedProperty": [{
+                                "key": "dockingWindowState",
+                                "valueString": "3"
+                            }, {
+                                "key": "dockingAction",
+                                "valueString": "2"
+                            }]
+                        }
+                    }, {
+                        "key": "undockingCondition",
+                        "valueBundle": {
+                            "managedProperty": [{
+                                "key": "undockingAction",
+                                "valueString": "3"
+                            }]
+                        }
+                    }]
+                }, {
+                    "managedProperty": [{
+                        "key": "autoMovePackagename",
+                        "valueString": "com.android.settings"
+                    }, {
+                        "key": "accessibilityOptions",
+                        "valueBundle": {
+                            "managedProperty": [{
+                                "key": "accessibilityLaunchShortcut",
+                                "valueString": "2"
+                            }, {
+                                "key": "accessibilityTaskbarMoveToDevice",
+                                "valueString": "2"
+                            }, {
+                                "key": "accessibilityAllApps",
+                                "valueString": "2"
+                            }, {
+                                "key": "taskbarIcon",
+                                "valueString": "2"
+                            }, {
+                                "key": "accessibilityCreateShortcut",
+                                "valueString": "2"
+                            }, {
+                                "key": "accessibilityNotification",
+                                "valueString": "2"
+                            }, {
+                                "key": "accessibilityTaskbarMoveToDesktop",
+                                "valueString": "2"
+                            }]
+                        }
+                    }]
+                }, {
+                    "managedProperty": [{
+                        "key": "autoMovePackagename",
+                        "valueString": "us.zoom.videomeetings"
+                    }, {
+                        "key": "taskbarImmersiveMode",
+                        "valueString": "2"
+                    }]
+                }]
+            }]
+        }
+    }]
+}

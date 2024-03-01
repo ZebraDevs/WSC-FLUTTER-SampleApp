@@ -1,0 +1,20 @@
+{
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.workstationconnect.release",
+    "managedProperty": [{
+        "key": "captureScreenshot",
+        "valueString": "1"
+    }, {
+        "key": "TaskbarCapability",
+        "valueBundle": {
+            "managedProperty": [{
+                "key": "AllAppsButton",
+                "valueString": "2"
+            }, {
+                "key": "DisplayMobileApps",
+                "valueString": "2"
+            }
+            ]
+        }
+    }]
+}

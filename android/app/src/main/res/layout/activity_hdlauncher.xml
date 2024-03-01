@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="WSC CONFIGURATOR SAMPLE APP" android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_DISPLAYSETTINGS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_DisplaySettings"
+        android:text="Display Settings" />
+
+    <Button
+        android:id="@+id/btn_DESKTOPELEMENTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_DesktopUIelems"
+        android:text="Desktop UI Elements" />
+
+    <Button
+        android:id="@+id/btn_STATUSICONS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_StatusIcons"
+        android:text="Status Icons" />
+
+    <Button
+        android:id="@+id/btn_APPLICBAHAVIORS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_AppsBehaviors"
+        android:text="Application Behaviors" />
+    <Button
+        android:id="@+id/btn_TASKBAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_Taskbar"
+        android:text="Taskbar" />
+
+    <Button
+        android:id="@+id/btn_DEVICEBAHAVIORS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_DeviceBehaviors"
+        android:text="Device Behaviors" />
+
+    <Button
+        android:id="@+id/btn_DesktopShortcutOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_OperatorOne"
+        android:text="Setting Desktop Shortcuts at runtime (#1)" />
+    <Button
+        android:id="@+id/btn_DesktopShortcutTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_OperatorTwo"
+        android:text="Setting Desktop Shortcuts at runtime (#2)" />
+
+    <Button
+        android:id="@+id/btn_DesktopShortcutThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickbtn_OperatorThree"
+        android:text="Setting Applied via SSM (#3)" />
+
+
+</LinearLayout>
+</ScrollView>

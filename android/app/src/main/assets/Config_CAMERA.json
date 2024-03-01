@@ -1,0 +1,27 @@
+{
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.oemconfig.common",
+    "managedProperty": [
+        {
+            "key": "resetConfiguration",
+            "valueString": "1"
+        }
+    ,
+        {
+            "key": "configurationMode",
+            "valueString": "Immediately"
+        }
+    ,
+        {
+            "key": "configDesktopShortcuts",
+            "valueBundle": [
+                {
+                    "key": "shortcutImportFile",
+                    "valueString": "[{\"addedDatetime\":1688272393625,\"appInfo\":{\"activityName\":\"com.android.camera.CameraLauncher\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"org.codeaurora.snapcam\"},\"groupInfo\":null,\"id\":\"sc2023.07.02.06:33:13.6e11e7\",\"modifiedDatetime\":1688272393626,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1688272404815,\"appInfo\":{\"activityName\":\"com.android.calculator2.Calculator\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.google.android.calculator\"},\"groupInfo\":null,\"id\":\"sc2023.07.02.06:33:24.f06c04\",\"modifiedDatetime\":1688272404815,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1688272447787,\"appInfo\":{\"activityName\":\"com.google.android.keep.activities.BrowseActivity\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.google.android.keep\"},\"groupInfo\":null,\"id\":\"sc2023.07.02.06:34:07.07eba0\",\"modifiedDatetime\":1688272447791,\"shortcutInfo\":null,\"type\":\"application\"}],{\"checksum\":\"306048d9ad9f503f952f3c8312c0d3ca\"}"
+                }
+            ]
+        }
+
+
+    ]
+}

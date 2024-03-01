@@ -1,0 +1,19 @@
+{
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.workstationconnect.release",
+    "managedProperty": [{
+        "key": "zwcConfigurationVersion",
+        "valueString": "3003"
+    }, {
+        "key": "configurationMode",
+        "valueString": "Immediately"
+    }, {
+        "key": "DeviceCapability",
+        "valueBundle": {
+            "managedProperty": [{
+                "key": "DimmingMobileScreen",
+                "valueString": "1"
+            }]
+        }
+    }]
+}

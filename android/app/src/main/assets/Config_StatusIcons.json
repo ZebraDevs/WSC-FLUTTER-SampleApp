@@ -1,0 +1,37 @@
+{
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.workstationconnect.release",
+    "managedProperty": [{
+        "key": "configStatusIcons",
+        "valueBundle": {
+            "managedProperty": [{
+                "key": "settingsFragmentsStatusIcons",
+                "valueString": "1"
+            }, {
+                "key": "settingsFragmentAudioPanel",
+                "valueString": "1"
+            }, {
+                "key": "ethernetStatusIcon",
+                "valueString": "1"
+            }, {
+                "key": "vpnStatusIcon",
+                "valueString": "1"
+            }, {
+                "key": "sipStatusIcon",
+                "valueString": "2"
+            }, {
+                "key": "batteryStatusIcon",
+                "valueString": "2"
+            }, {
+                "key": "cellularStatusIcon",
+                "valueString": "2"
+            }, {
+                "key": "wiFiStatusIcon",
+                "valueString": "2"
+            }, {
+                "key": "bluetoothStatusIcon",
+                "valueString": "1"
+            }]
+        }
+    }]
+}

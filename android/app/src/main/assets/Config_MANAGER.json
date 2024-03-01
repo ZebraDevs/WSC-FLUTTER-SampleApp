@@ -1,0 +1,26 @@
+{
+"kind": "androidenterprise#appRestrictionsSchema",
+"productId": "com.zebra.oemconfig.common",
+"managedProperty": [
+{
+"key": "resetConfiguration",
+"valueString": "1"
+}
+,
+{
+"key": "configurationMode",
+"valueString": "Immediately"
+}
+,
+  {
+    "key": "configDesktopShortcuts",
+    "valueBundle": [
+      {
+        "key": "shortcutImportFile",
+        "valueString": "[{\"addedDatetime\":1688461074508,\"appInfo\":{\"activityName\":\"com.microsoft.office.apphost.LaunchActivity\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.microsoft.office.excel\"},\"groupInfo\":null,\"id\":\"sc2023.07.04.10:57:54.0f6108\",\"modifiedDatetime\":1688461074510,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1688461094875,\"appInfo\":{\"activityName\":\"com.microsoft.skype.teams.Launcher\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.microsoft.teams\"},\"groupInfo\":null,\"id\":\"sc2023.07.04.10:58:14.507670\",\"modifiedDatetime\":1688461094877,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1707228650074,\"appInfo\":{\"activityName\":\"com.android.deskclock.DeskClock\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.android.deskclock\"},\"groupInfo\":null,\"id\":\"sc2024.02.06.15:10:50.55bb35\",\"modifiedDatetime\":1707228650074,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1707228660243,\"appInfo\":null,\"groupInfo\":null,\"id\":\"sc2024.02.06.15:11:00.2678a1\",\"modifiedDatetime\":1707228660244,\"shortcutInfo\":{\"browserType\":\"default\",\"iconImageString\":null,\"id\":\"Screensaver_Show\",\"imagePath\":null,\"name\":\"Screen saver\",\"packageName\":\"com.android.deskclock\",\"path\":null},\"type\":\"static_dynamic\"},{\"addedDatetime\":1707228674560,\"appInfo\":{\"activityName\":\"com.android.calculator2.Calculator\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.google.android.calculator\"},\"groupInfo\":null,\"id\":\"sc2024.02.06.15:11:14.449c06\",\"modifiedDatetime\":1707228674564,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1707228693656,\"appInfo\":{\"activityName\":\"com.symbol.datawedge.DWDemoActivity\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.symbol.datawedge\"},\"groupInfo\":null,\"id\":\"sc2024.02.06.15:11:33.b55efb\",\"modifiedDatetime\":1707228693657,\"shortcutInfo\":null,\"type\":\"application\"}]"
+      }
+    ]
+  }
+
+]
+}

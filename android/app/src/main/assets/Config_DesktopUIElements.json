@@ -1,0 +1,25 @@
+{
+    "kind": "androidenterprise#managedConfiguration",
+    "productId": "com.zebra.workstationconnect.release",
+    "managedProperty": [{
+        "key": "configDesktopUIElements",
+        "valueBundle": {
+            "managedProperty": [{
+                "key": "DesktopUIWallpaper",
+                "valueString": "1"
+            }, {
+                "key": "DesktopUIHomeContextMenu",
+                "valueString": "1"
+            }, {
+                "key": "DesktopUINotificationPanel",
+                "valueString": "1"
+            }, {
+                "key": "DesktopUITaskBar",
+                "valueString": "1"
+            }, {
+                "key": "DesktopUIShortcuts",
+                "valueString": "1"
+            }]
+        }
+    }]
+}

@@ -1,0 +1,20 @@
+{
+"kind": "androidenterprise#appRestrictionsSchema",
+"productId": "com.zebra.oemconfig.common",
+"managedProperty": [
+    {
+        "key": "configurationMode",
+        "valueString": "Immediately"
+    }
+    ,
+{
+"key": "configDesktopShortcuts",
+"valueBundle": [
+{
+"key": "shortcutImportFile",
+"valueString": "[{\"addedDatetime\":1688272844637,\"appInfo\":{\"activityName\":\"jf.xZ\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.zebra.mobiledimensioning\"},\"groupInfo\":null,\"id\":\"sc2023.07.02.06:40:44.854ea8\",\"modifiedDatetime\":1688272844638,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1688272858487,\"appInfo\":{\"activityName\":\"com.microsoft.skype.teams.Launcher\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.microsoft.teams\"},\"groupInfo\":null,\"id\":\"sc2023.07.02.06:40:58.a0dead\",\"modifiedDatetime\":1688272858487,\"shortcutInfo\":null,\"type\":\"application\"},{\"addedDatetime\":1688272883572,\"appInfo\":{\"activityName\":\"com.symbol.vod.SplashActivity\",\"iconImageString\":null,\"imagePath\":null,\"packageName\":\"com.symbol.vod\"},\"groupInfo\":null,\"id\":\"sc2023.07.02.06:41:23.ed14c8\",\"modifiedDatetime\":1688272883572,\"shortcutInfo\":null,\"type\":\"application\"}],{\"checksum\":\"da7729dfe0293be4fedce27e9f283151\"}"
+}
+]
+}
+]
+}
