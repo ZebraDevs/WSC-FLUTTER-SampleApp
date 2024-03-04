@@ -7,19 +7,20 @@
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
     -->
-
+    <uses-permission android:name="com.zebra.workstationconnect.ACCESS_CONFIGURATION_SERVICE" />
     <uses-permission android:name="com.zebra.securestoragemanager.securecontentprovider.PERMISSION.WRITE"/>
     <uses-permission android:name="com.zebra.securestoragemanager.securecontentprovider.PERMISSION.READ"/>
     <queries>
+        <package android:name="com.zebra.workstationconnect.release" />
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT" />
 
             <data android:mimeType="text/plain" />
         </intent>
-        <package android:name="com.zebra.workstationconnect.release" />
+
 
         <provider android:authorities="com.zebra.securestoragemanager.securecontentprovider"/>
-        <package android:name="com.zebra.securestoragemanager" />s
+        <package android:name="com.zebra.securestoragemanager" />
 
     </queries>
 
